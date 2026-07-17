@@ -1,0 +1,87 @@
+aid: union-square-ventures
+name: Union Square Ventures
+description: >-
+  Union Square Ventures (USV) is a thesis-driven, early-stage venture capital
+  firm founded in 2003 by Fred Wilson and Brad Burnham and headquartered at 817
+  Broadway in New York City. USV invests at the edge of large markets being
+  transformed by technological and societal pressures, historically backing
+  large networks of engaged users that are differentiated through user
+  experience and defensible through network effects, and more recently companies
+  that broaden access to knowledge, capital, and well-being. The firm invests
+  primarily at Seed and Series A across three strategies — a Core fund, a
+  Climate fund, and an Opportunity (later-stage) fund — with check sizes
+  typically ranging from roughly $1M at seed to the low-to-mid single-digit
+  millions at Series A. USV runs a small, collegial partnership and focuses on
+  social media, marketplaces, developer tools, learning/education, health,
+  fintech, web3/decentralized protocols, energy, and climate. It reports roughly
+  $1.9B in assets under management across 14 funds. Notable investments include
+  Twitter, Etsy, Coinbase, Stripe, Cloudflare, MongoDB, Twilio, Duolingo,
+  Kickstarter, Stack Overflow, SoundCloud, and Carta.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.usv.com/favicon.ico
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Fintech
+  - Marketplaces
+  - Developer Tools
+  - Web3
+  - Climate
+  - New York
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.usv.com/
+  - type: Portfolio
+    url: https://www.usv.com/companies
+  - type: Portfolio
+    url: portfolio/union-square-ventures-portfolio.yml
+  - type: Team
+    url: https://www.usv.com/people/
+  - type: Team
+    url: team/union-square-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://www.usv.com/about/
+  - type: InvestmentThesis
+    url: https://www.usv.com/idea/usv-investment-thesis/
+  - type: Blog
+    url: https://www.usv.com/writing/
+  - type: Jobs
+    url: https://jobs.usv.com/
+  - type: Contact
+    url: mailto:info@usv.com
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/union-square-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/union-square-ventures
+  - type: Twitter
+    url: https://twitter.com/usv
+  - type: Features
+    data:
+      - 'Stage: Seed and Series A (early-stage), plus later-stage via the Opportunity fund'
+      - 'Typical check: ~$1M at seed, low-to-mid single-digit millions at Series A'
+      - 'Sectors: social media, marketplaces, developer tools, learning/education, health, fintech, web3/decentralized protocols, energy, climate'
+      - 'Geography: United States (NYC-based), with global investments including Europe'
+      - 'AUM: ~$1.9B across 14 funds (self-reported)'
+      - 'Strategies: Core fund, Climate fund, Opportunity (later-stage) fund'
+      - 'Founded: 2003'
+      - 'Founders: Fred Wilson, Brad Burnham'
+      - 'HQ: 817 Broadway, 14th Floor, New York, NY 10003'
+    sources:
+      - https://www.usv.com/about/
+      - https://www.usv.com/idea/usv-investment-thesis/
+      - https://www.crunchbase.com/organization/union-square-ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Union Square Ventures
+    url: https://www.usv.com/
