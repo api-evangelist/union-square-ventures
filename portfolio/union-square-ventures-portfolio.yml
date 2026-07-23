@@ -3,23 +3,25 @@ method: searched
 source: https://www.usv.com/companies
 summary:
   portfolio_total: 206
-  in_network: 58
-  api_providers: 32
-  missing: 148
+  in_network: 206
+  api_providers: 49
+  missing: 0
   stubs_created: 0
 companies:
 - name: fomo
   url: https://fomo.family
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fomo
+  slug: fomo
+  matched_by: domain
 - name: Generalist
   url: https://generalistai.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: generalist
+  slug: generalistai
+  matched_by: domain
 - name: Suno
   url: https://suno.com
   description: Generative AI music creation.
@@ -33,93 +35,108 @@ companies:
 - name: Board
   url: https://board.fun
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: board
+  slug: board
+  matched_by: domain
 - name: Isembard
   url: https://www.isembard.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: isembard
+  slug: isembard
+  matched_by: domain
 - name: Efficient Computer
   url: https://www.efficient.computer
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: efficient-computer
+  slug: efficient-computer
+  matched_by: domain
 - name: General Intelligence
   url: https://cofounder.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-intelligence
+  slug: general-intelligence
+  matched_by: domain
 - name: Supper
   url: https://www.supper.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supper
+  slug: supper
+  matched_by: domain
 - name: Tutor Intelligence
   url: https://tutorintelligence.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tutor-intelligence
+  slug: tutor-intelligence
+  matched_by: domain
 - name: Recall
   url: https://recall.network
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: recall
+  in_network: true
+  is_api_provider: true
+  slug: recall
+  matched_by: domain
 - name: Electroflow
   url: https://www.eflowtech.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: electroflow
+  slug: electroflow
+  matched_by: domain
 - name: Doctronic
   url: https://www.doctronic.ai
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doctronic
+  slug: doctronic
+  matched_by: domain
 - name: Volteras
   url: https://volteras.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: volteras
+  in_network: true
+  is_api_provider: true
+  slug: volteras
+  matched_by: domain
 - name: Cactos
   url: https://cactos.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cactos
+  slug: cactos
+  matched_by: domain
 - name: Humane Genomics
   url: https://humanegenomics.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humane-genomics
+  slug: humane-genomics
+  matched_by: domain
 - name: Pluralis
   url: https://pluralis.ai
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pluralis
+  slug: pluralis
+  matched_by: domain
 - name: Presto
   url: https://www.prestocharging.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: presto
+  slug: presto
+  matched_by: domain
 - name: Glow
   url: https://glow.org
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glow
+  slug: glow
+  matched_by: name-slug
 - name: Consensus
   url: https://consensus.app
   description: AI-powered academic search engine.
@@ -133,15 +150,17 @@ companies:
 - name: Daylight
   url: https://about.daylight.xyz
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daylight
+  slug: daylight
+  matched_by: name-slug
 - name: Unigrid
   url: https://www.unigridbattery.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unigrid
+  slug: unigrid
+  matched_by: domain
 - name: Neynar
   url: https://neynar.com
   source: https://www.usv.com/companies
@@ -152,9 +171,10 @@ companies:
 - name: Anon
   url: https://www.anon.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anon
+  slug: anon
+  matched_by: domain
 - name: Farcaster
   url: https://www.farcaster.xyz
   description: Decentralized social network protocol.
@@ -168,57 +188,66 @@ companies:
 - name: Blixt
   url: https://blixt.tech
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blixt
+  slug: blixt
+  matched_by: domain
 - name: Code
   url: https://getcode.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: code
+  slug: code
+  matched_by: domain
 - name: Sling
   url: https://sling.money
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sling
+  slug: sling
+  matched_by: domain
 - name: Paragraph
   url: https://paragraph.xyz
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paragraph
+  slug: seed-club
+  matched_by: domain
 - name: Super Payments
   url: https://www.superpayments.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: super-payments
+  in_network: true
+  is_api_provider: true
+  slug: super-payments
+  matched_by: domain
 - name: Daybreak
   url: https://www.daybreakhealth.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daybreak
+  slug: daybreak
+  matched_by: domain
 - name: Odyssey
   url: https://odysseyenergysolutions.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odyssey
+  slug: odyssey
+  matched_by: name-slug
 - name: Noya
   url: https://www.noya.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noya
+  slug: noya
+  matched_by: domain
 - name: SuppCo
   url: https://supp.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: suppco
+  slug: suppco
+  matched_by: domain
 - name: CarbonChain
   url: https://www.carbonchain.com
   source: https://www.usv.com/companies
@@ -229,9 +258,10 @@ companies:
 - name: Ostrom
   url: https://ostrom.de
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ostrom
+  in_network: true
+  is_api_provider: true
+  slug: ostrom
+  matched_by: domain
 - name: Hume AI
   url: https://hume.ai
   description: Emotionally intelligent voice AI.
@@ -245,63 +275,73 @@ companies:
 - name: Journey Clinical
   url: https://www.journeyclinical.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: journey-clinical
+  slug: journey-clinical
+  matched_by: domain
 - name: Anthro Energy
   url: https://www.anthroenergy.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anthro-energy
+  slug: anthro-energy
+  matched_by: domain
 - name: Zanskar
   url: https://www.zanskar.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zanskar
+  slug: zanskar
+  matched_by: domain
 - name: Blackbird Labs
   url: https://blackbird.xyz
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blackbird-labs
+  in_network: true
+  is_api_provider: true
+  slug: blackbird
+  matched_by: domain
 - name: Lithos Carbon
   url: https://www.lithoscarbon.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lithos-carbon
+  slug: lithos-carbon
+  matched_by: domain
 - name: Lydian
   url: https://www.lydianlabs.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lydian
+  slug: lydian
+  matched_by: domain
 - name: XFuel
   url: https://xfuel.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xfuel
+  slug: xfuel
+  matched_by: domain
 - name: David Energy
   url: https://www.davidenergy.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: david-energy
+  slug: david-energy
+  matched_by: domain
 - name: Alife
   url: https://www.alifehealth.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alife
+  slug: alife
+  matched_by: domain
 - name: Radiant
   url: https://www.radiantnuclear.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: radiant
+  slug: radiantnuclear
+  matched_by: domain
 - name: WalletConnect
   url: https://walletconnect.com
   description: Open protocol connecting wallets and dApps.
@@ -332,9 +372,10 @@ companies:
 - name: Rupa Health
   url: https://www.rupahealth.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rupa-health
+  slug: rupa-health
+  matched_by: domain
 - name: Ceramic/3Box Labs
   url: https://ceramic.network
   source: https://www.usv.com/companies
@@ -345,39 +386,45 @@ companies:
 - name: Mundi
   url: https://mundi.io/en/exporters
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mundi
+  slug: mundi
+  matched_by: domain
 - name: Brilliant Planet
   url: https://www.brilliantplanet.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brilliant-planet
+  slug: brilliant-planet
+  matched_by: domain
 - name: FloodMapp
   url: https://www.floodmapp.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floodmapp
+  slug: floodmapp
+  matched_by: domain
 - name: Parallel Markets
   url: https://parallelmarkets.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parallel-markets
+  slug: parallel-markets
+  matched_by: domain
 - name: Molten Industries
   url: https://www.moltenindustries.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: molten-industries
+  slug: molten-industries
+  matched_by: domain
 - name: Sofar Ocean
   url: https://www.sofarocean.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sofar-ocean
+  in_network: true
+  is_api_provider: true
+  slug: sofar-ocean
+  matched_by: domain
 - name: BOLT
   url: https://revos.in
   source: https://www.usv.com/companies
@@ -388,9 +435,10 @@ companies:
 - name: Fiveable
   url: https://fiveable.me
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fiveable
+  slug: fiveable
+  matched_by: domain
 - name: m3ter
   url: https://www.m3ter.com
   source: https://www.usv.com/companies
@@ -401,15 +449,17 @@ companies:
 - name: Mombak
   url: https://mombak.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mombak
+  slug: mombak
+  matched_by: domain
 - name: Bright Moments DAO
   url: https://www.cryptovenetians.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bright-moments-dao
+  slug: bright-moments-dao
+  matched_by: name-slug
 - name: Dune Analytics
   url: https://dune.xyz/home
   description: On-chain crypto data analytics platform.
@@ -433,43 +483,49 @@ companies:
   slug: addi
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mindset
   url: https://www.getmindset.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindset
+  slug: mindset
+  matched_by: domain
 - name: Remora
   url: https://www.remoracarbon.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remora
+  slug: remora
+  matched_by: domain
 - name: Kiosk
   url: https://kiosk.app
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kiosk
+  slug: kiosk
+  matched_by: domain
 - name: Shift EV
   url: https://www.shift-ev.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shift-ev
+  slug: shift-ev
+  matched_by: domain
 - name: soona
   url: https://soona.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soona
+  slug: soona
+  matched_by: domain
 - name: Karat
   url: https://www.trykarat.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karat
+  slug: karatio
+  matched_by: domain
 - name: Matter Labs (zkSync)
   url: https://zksync.io
   description: Zero-knowledge Ethereum scaling protocol.
@@ -490,57 +546,66 @@ companies:
 - name: Jam
   url: https://jam.dev
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jam
+  slug: jam
+  matched_by: domain
 - name: SmartHop
   url: https://www.smarthop.co
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smarthop
+  slug: smarthop
+  matched_by: domain
 - name: NCX
   url: https://www.silviaterra.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ncx
+  slug: ncx
+  matched_by: name-slug
 - name: Sora
   url: https://soraschools.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sora
+  slug: sora
+  matched_by: domain
 - name: Headgum
   url: https://www.headgum.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: headgum
+  slug: headgum
+  matched_by: domain
 - name: Bolster
   url: https://bolster.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bolster
+  slug: bolster
+  matched_by: domain
 - name: Possible Finance
   url: https://www.possiblefinance.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: possible-finance
+  slug: possible-finance
+  matched_by: domain
 - name: Teamshares
   url: https://www.teamshares.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teamshares
+  slug: teamshares
+  matched_by: domain
 - name: alt.bank
   url: https://www.altbank.com.br
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: altbank
+  in_network: true
+  is_api_provider: true
+  slug: altbank
+  matched_by: name-slug
 - name: Justworks
   url: https://justworks.com
   description: HR, payroll and benefits platform for SMBs.
@@ -561,9 +626,10 @@ companies:
 - name: Leap
   url: https://leap.energy
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: leap
+  in_network: true
+  is_api_provider: true
+  slug: leap
+  matched_by: domain
 - name: Arweave
   url: https://www.arweave.org
   description: Permanent decentralized data storage protocol.
@@ -572,32 +638,36 @@ companies:
   source: https://www.usv.com/companies
   slug: arweave
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Wren
   url: https://projectwren.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wren
+  in_network: true
+  is_api_provider: true
+  slug: wren
+  matched_by: domain
 - name: Recount Media
   url: https://therecount.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recount-media
+  slug: recount-media
+  matched_by: domain
 - name: Meet Cute
   url: https://www.meetcute.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meet-cute
+  slug: meet-cute
+  matched_by: domain
 - name: Noah
   url: https://www.patchhomes.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noah
+  slug: noah
+  matched_by: domain
 - name: Abridge
   url: https://abridge.com
   description: Clinical documentation AI for healthcare.
@@ -611,9 +681,10 @@ companies:
 - name: Otis
   url: https://withotis.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: otis
+  slug: otis
+  matched_by: domain
 - name: Nova Labs
   url: https://helium.com
   description: Decentralized wireless network (Helium).
@@ -630,66 +701,75 @@ companies:
   sector: consumer
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sofar-sounds
+  slug: sofar-sounds
+  matched_by: domain
 - name: Outschool
   url: https://outschool.com
   description: Online marketplace for kids' live classes.
   sector: education
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outschool
+  slug: outschool
+  matched_by: domain
 - name: Marley Spoon
   url: https://marleyspoon.com
   description: Meal-kit subscription service.
   sector: consumer
   status: ipo
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marley-spoon
+  slug: marley-spoon
+  matched_by: domain
 - name: Dreambound
   url: https://dreambound.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dreambound
+  slug: dreambound
+  matched_by: domain
 - name: Dia
   url: https://www.dia.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dia
+  slug: dia
+  matched_by: domain
 - name: Scroll
   url: https://scroll.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scroll
+  slug: scroll
+  matched_by: domain
 - name: Placeholder
   url: https://placeholder.vc
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: placeholder
+  slug: placeholder
+  matched_by: domain
 - name: ShopShops
   url: https://shopshopslive.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shopshops
+  slug: shopshops
+  matched_by: domain
 - name: Dapper Labs
   url: https://www.dapperlabs.com
   description: Blockchain platform behind NBA Top Shot and Flow.
   sector: crypto
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dapper-labs
+  slug: dapperlabs
+  matched_by: domain
 - name: Stash
   url: https://www.stash.com
   description: Personal investing and banking app.
@@ -713,81 +793,92 @@ companies:
 - name: Agentero
   url: https://www.agentero.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentero
+  slug: agentero
+  matched_by: domain
 - name: Top Hat
   url: https://tophat.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: top-hat
+  slug: top-hat
+  matched_by: domain
 - name: Tucows
   url: https://tucows.com
   description: Domain registration and internet services.
   sector: infrastructure
   status: ipo
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tucows
+  slug: tucows
+  matched_by: domain
 - name: Upgrade
   url: https://upgrade.com
   description: Consumer credit and neobanking platform.
   sector: fintech
   status: active
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: upgrade
+  in_network: true
+  is_api_provider: true
+  slug: upgrade
+  matched_by: domain
 - name: goTenna
   url: https://gotenna.com
   description: Off-grid mobile mesh communication.
   sector: infrastructure
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gotenna
+  slug: gotenna
+  matched_by: domain
 - name: Caretaker
   url: https://caretaker.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caretaker
+  slug: caretaker
+  matched_by: domain
 - name: Modern Fertility
   url: https://modernfertility.com
   description: Women's fertility and hormone testing.
   sector: health
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modern-fertility
+  slug: modern-fertility
+  matched_by: domain
 - name: Multicoin Capital
   url: https://multicoin.capital
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: multicoin-capital
+  slug: multicoin-capital
+  matched_by: domain
 - name: Blocktower Capital
   url: https://blocktower.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blocktower-capital
+  slug: blocktower-capital
+  matched_by: domain
 - name: MetaStable Capital
   url: https://metastablecapital.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metastable-capital
+  slug: metastable-capital
+  matched_by: domain
 - name: Jobbatical
   url: https://jobbatical.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jobbatical
+  slug: jobbatical
+  matched_by: domain
 - name: CoverWallet
   url: https://coverwallet.com
   source: https://www.usv.com/companies
@@ -808,24 +899,27 @@ companies:
 - name: Payjoy
   url: https://www.payjoy.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: payjoy
+  in_network: true
+  is_api_provider: true
+  slug: payjoy
+  matched_by: domain
 - name: Nurx
   url: https://app.nurx.co
   description: Telehealth and prescription delivery.
   sector: health
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nurx
+  slug: nurx
+  matched_by: domain
 - name: RealtyShares
   url: https://www.realtyshares.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realtyshares
+  slug: realtyshares
+  matched_by: domain
 - name: Shippo
   url: https://goshippo.com
   description: Multi-carrier shipping API and platform.
@@ -839,33 +933,37 @@ companies:
 - name: Polychain Capital
   url: https://polychain.capital
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polychain-capital
+  slug: polychain
+  matched_by: domain
 - name: Numerai
   url: https://numer.ai
   description: Crowdsourced AI hedge fund.
   sector: fintech
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numerai
+  slug: numerai
+  matched_by: domain
 - name: Protocol Labs
   url: https://protocol.ai
   description: Open protocols including IPFS and Filecoin.
   sector: crypto
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: protocol-labs
+  slug: protocol-labs
+  matched_by: domain
 - name: La Ruche qui dit Oui!
   url: https://laruchequiditoui.fr
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: la-ruche-qui-dit-oui
+  in_network: true
+  is_api_provider: true
+  slug: la-ruche-qui-dit-oui
+  matched_by: domain
 - name: Quizlet
   url: https://quizlet.com
   description: Study tools and flashcard learning platform.
@@ -879,15 +977,17 @@ companies:
 - name: OB1
   url: https://ob1.io
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ob1
+  slug: ob1
+  matched_by: domain
 - name: Pilot
   url: https://pilotfiber.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pilot
+  slug: pilot
+  matched_by: name-slug
 - name: Simscale
   url: https://simscale.com
   source: https://www.usv.com/companies
@@ -898,9 +998,10 @@ companies:
 - name: Koko
   url: https://itskoko.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: koko
+  in_network: true
+  is_api_provider: true
+  slug: koko
+  matched_by: name-slug
 - name: Clue
   url: https://helloclue.com
   source: https://www.usv.com/companies
@@ -921,15 +1022,17 @@ companies:
 - name: Zeitview
   url: https://www.zeitview.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeitview
+  slug: zeitview
+  matched_by: domain
 - name: Stacks
   url: https://www.blockstack.org
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stacks
+  slug: stacks
+  matched_by: name-slug
 - name: Casetext
   url: https://casetext.com
   source: https://www.usv.com/companies
@@ -940,9 +1043,10 @@ companies:
 - name: CrowdRise
   url: https://crowdrise.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crowdrise
+  slug: crowdrise
+  matched_by: domain
 - name: Carta
   url: https://carta.com
   description: Cap table, equity and fund administration platform.
@@ -956,27 +1060,31 @@ companies:
 - name: Veniam
   url: https://veniam.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veniam
+  slug: veniam
+  matched_by: domain
 - name: Amino
   url: https://aminoapps.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amino
+  slug: aminoapps
+  matched_by: domain
 - name: Figure1
   url: https://figure1.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: figure1
+  slug: figure1
+  matched_by: domain
 - name: Assembly
   url: https://assembly.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assembly
+  slug: assembly
+  matched_by: name-slug
 - name: Stripe
   url: https://stripe.com
   description: Online payments and financial infrastructure APIs.
@@ -1000,30 +1108,34 @@ companies:
 - name: Science Exchange
   url: https://scienceexchange.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: science-exchange
+  slug: scienceexchange
+  matched_by: domain
 - name: SigFig
   url: https://sigfig.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sigfig
+  slug: sigfig
+  matched_by: domain
 - name: Firebase
   url: https://firebase.com
   description: Backend-as-a-service mobile/web development platform.
   sector: developer-tools
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firebase
+  slug: firebase
+  matched_by: name-slug
 - name: Onefootball
   url: https://onefootball.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onefootball
+  slug: onefootball
+  matched_by: domain
 - name: Cloudflare
   url: https://cloudflare.com
   description: Web performance, security and edge network platform.
@@ -1037,27 +1149,31 @@ companies:
 - name: Circleup
   url: https://circleup.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circleup
+  slug: circleup
+  matched_by: domain
 - name: Human Dx
   url: https://humandx.org
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-dx
+  slug: human-dx
+  matched_by: domain
 - name: Kitchensurfing
   url: https://kitchensurfing.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kitchensurfing
+  slug: kitchensurfing
+  matched_by: domain
 - name: Sidecar
   url: https://side.cr
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sidecar
+  slug: sidecar
+  matched_by: domain
 - name: VHX
   url: https://vhx.tv
   source: https://www.usv.com/companies
@@ -1078,52 +1194,58 @@ companies:
 - name: FREE NOW
   url: https://www.your-now.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: free-now
+  slug: free-now
+  matched_by: name-slug
 - name: Funding Circle
   url: https://fundingcircle.com
   description: Small-business lending marketplace.
   sector: fintech
   status: ipo
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: funding-circle
+  in_network: true
+  is_api_provider: true
+  slug: funding-circle
+  matched_by: domain
 - name: Dwolla
   url: https://dwolla.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dwolla
+  slug: dwolla
+  matched_by: domain
 - name: Props
   url: https://propsproject.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: props
+  slug: props
+  matched_by: name-slug
 - name: C2FO
   url: https://c2fo.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: c2fo
+  slug: c2fo
+  matched_by: domain
 - name: Auxmoney
   url: https://auxmoney.com
   source: https://www.usv.com/companies
   slug: auxmoney
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Behance
   url: https://behance.net
   description: Portfolio platform for creative professionals.
   sector: consumer
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: behance
+  slug: behance
+  matched_by: domain
 - name: Canvas
   url: https://canv.as
   source: https://www.usv.com/companies
@@ -1154,9 +1276,10 @@ companies:
 - name: Brewster
   url: https://brewster.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brewster
+  slug: brewster
+  matched_by: name-slug
 - name: Duolingo
   url: https://duolingo.com
   description: Language-learning app and platform.
@@ -1173,9 +1296,10 @@ companies:
   sector: consumer
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wattpad
+  slug: wattpad
+  matched_by: domain
 - name: Skillshare
   url: https://skillshare.com
   source: https://www.usv.com/companies
@@ -1189,15 +1313,17 @@ companies:
   sector: social-media
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kik
+  slug: kik
+  matched_by: domain
 - name: Turntable
   url: https://turntable.fm
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turntable
+  slug: turntable
+  matched_by: domain
 - name: Lending Club
   url: https://lendingclub.com
   description: Peer-to-peer lending marketplace.
@@ -1211,9 +1337,10 @@ companies:
 - name: Work Market
   url: https://workmarket.com
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: work-market
+  in_network: true
+  is_api_provider: true
+  slug: work-market
+  matched_by: domain
 - name: SoundCloud
   url: https://soundcloud.com
   description: Audio streaming and creator platform.
@@ -1230,24 +1357,27 @@ companies:
   sector: marketplaces
   status: ipo
   source: https://www.usv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shapeways
+  in_network: true
+  is_api_provider: true
+  slug: shapeways
+  matched_by: domain
 - name: Edmodo
   url: https://edmodo.com
   description: K-12 education social network.
   sector: education
   status: dead
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edmodo
+  slug: edmodo
+  matched_by: domain
 - name: Tasty Labs
   url: https://tastylabs.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tasty-labs
+  slug: tasty-labs
+  matched_by: domain
 - name: Stack Overflow
   url: https://stackoverflow.com
   description: Q&A community for developers.
@@ -1261,15 +1391,17 @@ companies:
 - name: Heyzap
   url: https://heyzap.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heyzap
+  slug: heyzap
+  matched_by: domain
 - name: Simulmedia
   url: https://simulmedia.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simulmedia
+  slug: simulmedia
+  matched_by: domain
 - name: Twilio
   url: https://twilio.com
   description: Cloud communications APIs for messaging and voice.
@@ -1286,9 +1418,10 @@ companies:
   sector: marketplaces
   status: active
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kickstarter
+  slug: kickstarter
+  matched_by: domain
 - name: Foursquare
   url: https://enterprise.foursquare.com
   description: Location data and technology platform.
@@ -1312,33 +1445,37 @@ companies:
 - name: AMEE
   url: https://amee.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amee
+  slug: amee
+  matched_by: domain
 - name: Flurry
   url: https://flurry.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flurry
+  slug: flurry
+  matched_by: domain
 - name: Return Path
   url: https://returnpath.com
   description: Email deliverability and data solutions.
   sector: developer-tools
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: return-path
+  slug: return-path
+  matched_by: domain
 - name: Boxee
   url: https://boxee.com
   description: Connected-TV media software.
   sector: consumer
   status: acquired
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boxee
+  slug: boxee
+  matched_by: domain
 - name: Yieldmo
   url: https://yieldmo.com
   source: https://www.usv.com/companies
@@ -1349,15 +1486,17 @@ companies:
 - name: Covestor
   url: https://covestor.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: covestor
+  slug: covestor
+  matched_by: domain
 - name: Zemanta
   url: https://zemanta.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zemanta
+  slug: zemanta
+  matched_by: domain
 - name: MongoDB
   url: https://mongodb.com
   description: Document-oriented NoSQL database platform.
@@ -1371,9 +1510,10 @@ companies:
 - name: Wesabe
   url: https://wesabe.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wesabe
+  slug: wesabe
+  matched_by: domain
 - name: Disqus
   url: https://disqus.com
   description: Web comment hosting and discussion platform.
@@ -1387,15 +1527,17 @@ companies:
 - name: Targetspot
   url: https://targetspot.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: targetspot
+  slug: targetspot
+  matched_by: domain
 - name: Outside.in
   url: https://outside.in.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outsidein
+  slug: outsidein
+  matched_by: name-slug
 - name: Zynga
   url: https://zynga.com
   description: Social and mobile games developer.
@@ -1419,15 +1561,17 @@ companies:
 - name: Clickable
   url: https://clickable.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clickable
+  slug: clickable
+  matched_by: domain
 - name: GetGlue
   url: https://getglue.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getglue
+  slug: getglue
+  matched_by: domain
 - name: Etsy
   url: https://etsy.com
   description: Marketplace for handmade and vintage goods.
@@ -1451,15 +1595,17 @@ companies:
 - name: Buglabs
   url: https://buglabs.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buglabs
+  slug: buglabs
+  matched_by: name-slug
 - name: Oddcast
   url: https://oddcast.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oddcast
+  slug: oddcast
+  matched_by: domain
 - name: Indeed
   url: https://indeed.com
   description: Job search and recruitment marketplace.
@@ -1476,12 +1622,14 @@ companies:
   sector: consumer
   status: dead
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delicious
+  slug: delicious
+  matched_by: domain
 - name: Tacoda
   url: https://tacoda.com
   source: https://www.usv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tacoda
+  slug: tacoda
+  matched_by: domain

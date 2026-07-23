@@ -1,0 +1,14 @@
+{
+  "repo": "union-square-ventures",
+  "feeds": [
+    {
+      "source": "https://www.usv.com/idea/usv-investment-thesis/",
+      "feed_url": "https://www.usv.com/writing/feed",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-20T13:31:34Z"
+}
