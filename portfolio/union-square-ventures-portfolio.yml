@@ -3,9 +3,9 @@ method: searched
 source: https://www.usv.com/companies
 summary:
   portfolio_total: 206
-  in_network: 206
-  api_providers: 49
-  missing: 0
+  in_network: 190
+  api_providers: 52
+  missing: 16
   stubs_created: 0
 companies:
 - name: fomo
@@ -20,7 +20,7 @@ companies:
   source: https://www.usv.com/companies
   in_network: true
   is_api_provider: false
-  slug: generalistai
+  slug: generalist-ai
   matched_by: domain
 - name: Suno
   url: https://suno.com
@@ -79,7 +79,7 @@ companies:
   source: https://www.usv.com/companies
   in_network: true
   is_api_provider: true
-  slug: recall
+  slug: recall-labs
   matched_by: domain
 - name: Electroflow
   url: https://www.eflowtech.com
@@ -143,10 +143,10 @@ companies:
   sector: ai
   status: active
   source: https://www.usv.com/companies
-  slug: consensus
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: consensus
+  suggested_slug: consensus-app
 - name: Daylight
   url: https://about.daylight.xyz
   source: https://www.usv.com/companies
@@ -202,16 +202,15 @@ companies:
 - name: Sling
   url: https://sling.money
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sling
-  matched_by: domain
+  suggested_slug: sling
 - name: Paragraph
   url: https://paragraph.xyz
   source: https://www.usv.com/companies
   in_network: true
   is_api_provider: false
-  slug: seed-club
+  slug: seedclub
   matched_by: domain
 - name: Super Payments
   url: https://www.superpayments.com
@@ -230,10 +229,10 @@ companies:
 - name: Odyssey
   url: https://odysseyenergysolutions.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: odyssey
-  matched_by: name-slug
+  x-name-collision: odyssey
+  suggested_slug: odysseyenergysolutions-com
 - name: Noya
   url: https://www.noya.co
   source: https://www.usv.com/companies
@@ -367,7 +366,7 @@ companies:
   source: https://www.usv.com/companies
   slug: reservoir
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Rupa Health
   url: https://www.rupahealth.com
@@ -428,10 +427,9 @@ companies:
 - name: BOLT
   url: https://revos.in
   source: https://www.usv.com/companies
-  slug: bolt
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: bolt
 - name: Fiveable
   url: https://fiveable.me
   source: https://www.usv.com/companies
@@ -456,10 +454,10 @@ companies:
 - name: Bright Moments DAO
   url: https://www.cryptovenetians.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bright-moments-dao
-  matched_by: name-slug
+  x-name-collision: bright-moments-dao
+  suggested_slug: cryptovenetians-com
 - name: Dune Analytics
   url: https://dune.xyz/home
   description: On-chain crypto data analytics platform.
@@ -539,10 +537,10 @@ companies:
 - name: Tapestry
   url: https://www.usetapestry.dev
   source: https://www.usv.com/companies
-  slug: tapestry
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: tapestry
+  suggested_slug: usetapestry-dev
 - name: Jam
   url: https://jam.dev
   source: https://www.usv.com/companies
@@ -560,10 +558,10 @@ companies:
 - name: NCX
   url: https://www.silviaterra.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ncx
-  matched_by: name-slug
+  x-name-collision: ncx
+  suggested_slug: silviaterra-com
 - name: Sora
   url: https://soraschools.com
   source: https://www.usv.com/companies
@@ -597,15 +595,14 @@ companies:
   source: https://www.usv.com/companies
   in_network: true
   is_api_provider: false
-  slug: teamshares
+  slug: teamshares-inc
   matched_by: domain
 - name: alt.bank
   url: https://www.altbank.com.br
   source: https://www.usv.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: altbank
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: altbank
 - name: Justworks
   url: https://justworks.com
   description: HR, payroll and benefits platform for SMBs.
@@ -691,7 +688,7 @@ companies:
   sector: crypto
   status: active
   source: https://www.usv.com/companies
-  slug: helium
+  slug: helium-network
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -767,8 +764,8 @@ companies:
   status: active
   source: https://www.usv.com/companies
   in_network: true
-  is_api_provider: false
-  slug: dapperlabs
+  is_api_provider: true
+  slug: dapper-labs
   matched_by: domain
 - name: Stash
   url: https://www.stash.com
@@ -984,10 +981,10 @@ companies:
 - name: Pilot
   url: https://pilotfiber.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pilot
-  matched_by: name-slug
+  x-name-collision: pilot
+  suggested_slug: pilotfiber-com
 - name: Simscale
   url: https://simscale.com
   source: https://www.usv.com/companies
@@ -998,10 +995,10 @@ companies:
 - name: Koko
   url: https://itskoko.com
   source: https://www.usv.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: koko
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: koko
+  suggested_slug: itskoko-com
 - name: Clue
   url: https://helloclue.com
   source: https://www.usv.com/companies
@@ -1029,10 +1026,10 @@ companies:
 - name: Stacks
   url: https://www.blockstack.org
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: stacks
-  matched_by: name-slug
+  x-name-collision: stacks
+  suggested_slug: blockstack-org
 - name: Casetext
   url: https://casetext.com
   source: https://www.usv.com/companies
@@ -1081,10 +1078,10 @@ companies:
 - name: Assembly
   url: https://assembly.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: assembly
-  matched_by: name-slug
+  x-name-collision: assembly
+  suggested_slug: assembly-com
 - name: Stripe
   url: https://stripe.com
   description: Online payments and financial infrastructure APIs.
@@ -1109,8 +1106,8 @@ companies:
   url: https://scienceexchange.com
   source: https://www.usv.com/companies
   in_network: true
-  is_api_provider: false
-  slug: scienceexchange
+  is_api_provider: true
+  slug: science-exchange
   matched_by: domain
 - name: SigFig
   url: https://sigfig.com
@@ -1173,7 +1170,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sidecar
-  matched_by: domain
+  matched_by: name-slug
 - name: VHX
   url: https://vhx.tv
   source: https://www.usv.com/companies
@@ -1187,17 +1184,17 @@ companies:
   sector: consumer
   status: active
   source: https://www.usv.com/companies
-  slug: splice
+  slug: splice-com
   in_network: true
   is_api_provider: false
   matched_by: domain
 - name: FREE NOW
   url: https://www.your-now.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: free-now
-  matched_by: name-slug
+  x-name-collision: free-now
+  suggested_slug: your-now-com
 - name: Funding Circle
   url: https://fundingcircle.com
   description: Small-business lending marketplace.
@@ -1212,16 +1209,16 @@ companies:
   url: https://dwolla.com
   source: https://www.usv.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: dwolla
   matched_by: domain
 - name: Props
   url: https://propsproject.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: props
-  matched_by: name-slug
+  x-name-collision: props
+  suggested_slug: propsproject-com
 - name: C2FO
   url: https://c2fo.com
   source: https://www.usv.com/companies
@@ -1276,10 +1273,10 @@ companies:
 - name: Brewster
   url: https://brewster.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: brewster
-  matched_by: name-slug
+  x-name-collision: brewster
+  suggested_slug: brewster-com
 - name: Duolingo
   url: https://duolingo.com
   description: Language-learning app and platform.
@@ -1315,7 +1312,7 @@ companies:
   source: https://www.usv.com/companies
   in_network: true
   is_api_provider: false
-  slug: kik
+  slug: kik-kin
   matched_by: domain
 - name: Turntable
   url: https://turntable.fm
@@ -1463,7 +1460,7 @@ companies:
   status: acquired
   source: https://www.usv.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: return-path
   matched_by: domain
 - name: Boxee
@@ -1481,7 +1478,7 @@ companies:
   source: https://www.usv.com/companies
   slug: yieldmo
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Covestor
   url: https://covestor.com
@@ -1534,17 +1531,17 @@ companies:
 - name: Outside.in
   url: https://outside.in.com
   source: https://www.usv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: outsidein
-  matched_by: name-slug
+  x-name-collision: outsidein
+  suggested_slug: in-com
 - name: Zynga
   url: https://zynga.com
   description: Social and mobile games developer.
   sector: consumer
   status: acquired
   source: https://www.usv.com/companies
-  slug: take-two-interactive-software
+  slug: zynga
   in_network: true
   is_api_provider: false
   matched_by: domain
